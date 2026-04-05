@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Poppins, Zen_Dots, Inter, Syne, JetBrains_Mono } fro
 import "./globals.scss";
 import { ThemeProvider } from "@/context/ThemeContext";
 import ThemeFAB from "@/components/ThemeFAB";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,7 +50,6 @@ export const metadata = {
 };
 
 const c_id = ["w73b", "s146", "63"].join("");
-w73bs14663
 
 export default function RootLayout({ children }) {
   return (
@@ -67,7 +67,6 @@ export default function RootLayout({ children }) {
             })(window, document, "clarity", "script", "${c_id}");
           `}
         </Script>
-
         <main className="h-full bg-[var(--surface-0)]">
           <ThemeProvider>
             {children}
