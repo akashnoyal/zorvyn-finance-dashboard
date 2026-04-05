@@ -1,0 +1,48 @@
+@use "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --font-poppins: var(--font-poppins-family), sans-serif;
+  --font-zen-dots: var(--font-zen-dots), sans-serif;
+  --font-inter: var(--font-inter), sans-serif;
+  --font-syne: var(--font-syne), sans-serif;
+  --font-jetbrainsmono: var(--font-jetbrainsmono), sans-serif;
+
+}
+
+:root {
+  --surface-0: #ffffff;
+  --surface-1: #f8fafc;
+  --surface-2: #f1f5f9;
+  --surface-3: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #22c55e;
+  --accent-muted: #dcfce7;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --border: #e2e8f0;
+  --border-hover: #0000002b;
+}
+
+[data-theme="dark"] {
+  --surface-0: #0a0f1e;
+  --surface-1: #0f172a;
+  --surface-2: #1e293b;
+  --surface-3: #334155;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #4ade80;
+  --accent-muted: #14532d;
+  --danger: #f87171;
+  --warning: #fbbf24;
+  --border: #1e293b;
+  --border-hover: #2f4262;
+}
+
+* {
+  box-sizing: border-box;
+}
