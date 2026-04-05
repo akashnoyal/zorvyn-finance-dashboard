@@ -51,6 +51,7 @@ export const metadata = {
 
 const c_id = ["w73b", "s146", "63"].join("");
 
+
 export default function RootLayout({ children }) {
   return (
     <html
