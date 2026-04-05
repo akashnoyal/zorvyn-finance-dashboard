@@ -4,7 +4,7 @@ A responsive finance dashboard built with Next.js, Tailwind CSS, and Recharts. F
 
 ## Live Demo
 
-[zorvyn-finance-dashboard.vercel.app](https://zorvyn-finance-app-nine.vercel.app/)
+[zorvyn-finance-dashboard.vercel.app](https://zorvyn-finance-dashboard-jet.vercel.app/)
 
 ## Setup
 ```bash
